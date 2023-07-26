@@ -1,0 +1,14 @@
+伝言板
+<p id="伝言エリア">伝言はまだありません</p>
+<input id="内容"><button onclick="dengon();">送信</button>
+
+<script>
+function dengon() {
+  if (内容.value === "") {
+    alert("入力しておくんなまし~");
+  } else {
+    伝言エリア.innerText = 内容.value;
+    alert("このアラート消してみ?更新されとるから\uD83D\uDC4D");
+  }
+}
+</script>
